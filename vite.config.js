@@ -3,10 +3,10 @@ import viteCompression from 'vite-plugin-compression';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-   base: '/oxygen-shop/',
+   base: '/oxygen_shop/',
    plugins: [viteCompression()],
    build: {
       assetsInlineLimit: 0,
-      outDir: './docs'
+      // outDir: './docs'
    }
 })
